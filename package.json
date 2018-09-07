@@ -1,0 +1,10 @@
+{
+    "name": "node-native-clip",
+    "version": "0.0.1",
+    "main": "bindings.js",
+    "description": "Native module for NodeJS for reading from and writing to the clipboard.",
+    "scripts": {
+        "build": "node-gyp build",
+        "install": "node-gyp rebuild"
+    }
+}
